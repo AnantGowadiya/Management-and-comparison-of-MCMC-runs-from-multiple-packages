@@ -1,3 +1,4 @@
+library(R2HTML)
 #TEST 1
 #Creating reference class with Nvec and Nmetric as data memebers of type numeric and list respectively
 sampleInfoClass <- setRefClass("sampleInfoClass", fields = list(Nvec = "numeric", Nmetric = "list"))
