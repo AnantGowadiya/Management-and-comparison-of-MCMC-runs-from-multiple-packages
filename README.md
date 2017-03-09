@@ -18,6 +18,7 @@ d$NumtoMetric(mean)
 
 ##Plotting a bar plot
 d$plot_bar(metric_name = "mean",barplot,col= "light green",xlab = "mean")
+
 ![bar plot](https://github.com/AnantGowadiya/Management-and-comparison-of-MCMC-runs-from-multiple-packages/blob/master/mean.png)
 ##Generating an Html page to display the bar plot
 d$to_html(metric_name = "mean",barplot,col= "light green",xlab = "mean")
